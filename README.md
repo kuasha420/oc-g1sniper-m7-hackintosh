@@ -2,6 +2,8 @@
 
 Opencore Bootloader EFI and config.plist file with all required Drivers and Kexts for Gigabyte G1.Sniper M7. Should work with Both Skylake & Kaby Lake. (Only Tested With Skylake i5-6500).
 
+**SET `TURN DISPLAY OFF AFTER` to `Never` in Energy Saver settings as once turned off, display can't power back on.**
+
 ## Included Software Versions
 
 OpenCore - 0.6.2
@@ -18,19 +20,17 @@ WhateverGreen - 1.4.3
 
 ## BIOS SETTINGS
 
-OS Mode: 
-    Other OS with UEFI Only 
-    or, Windows 8/10 (CSM Disabled)
-Secure Boot: 
-    Disabled
-Aboce 4G Decode: 
-    Enabled
-SuperIO: 
-    Disabled
-VD-x: 
-    Enabled
-VT-d: 
-    You can leave it disabled or enable it if you beed it for Other OS. (MacOS can't/doesn't use VT-d)
+OS Mode: `Other OS with UEFI Only` or, `Windows 8/10 (CSM Disabled)`
+    
+Secure Boot: `Disabled`
+    
+Aboce 4G Decode: `Enabled`
+    
+SuperIO: `Disabled`
+
+VD-x: `Enabled`
+
+VT-d: You can leave it `disabled` or `enable` it if you beed it for Other OS. **(MacOS can't/doesn't use VT-d)**
 
 ## What's Working
 
@@ -59,6 +59,6 @@ VT-d:
 
 ## Licenses & Attribution 
 
-Most of the Included stuffs here are  BSD-3-Clause Licensed and developed by `acidanthera` developers and other open source community developers. Config files and EFI partition prepared by following `dortania - Hackintosh Guides` and some trial & errors. 
+Most of the Included stuffs here are  `BSD-3-Clause Licensed` and developed by `acidanthera` developers and other open source community developers. Config files and EFI partition prepared by following `dortania - Hackintosh Guides` and some trial & errors. 
 
 Enjoy. 
