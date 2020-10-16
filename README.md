@@ -5,10 +5,15 @@ Opencore Bootloader EFI and config.plist file with all required Drivers and Kext
 ## Included Software Versions
 
 OpenCore - 0.6.2
+
 AppleALC - 1.5.3
+
 IntelMausi - 1.0.4
+
 Lilu - 1.4.8
+
 VirtualSMC -  1.1.7
+
 WhateverGreen - 1.4.3
 
 ## BIOS SETTINGS
