@@ -30,7 +30,7 @@ SuperIO: `Disabled`
 
 VD-x: `Enabled`
 
-VT-d: You can leave it `disabled` or `enable` it if you beed it for Other OS. **(MacOS can't/doesn't use VT-d)**
+VT-d: You can leave it `disabled` or `enable` it if you need it for Other OS. **(MacOS can't/doesn't use VT-d)**
 
 ## What's Working
 
