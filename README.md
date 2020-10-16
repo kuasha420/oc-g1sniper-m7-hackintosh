@@ -43,8 +43,9 @@ VT-d: You can leave it `disabled` or `enable` it if you need it for Other OS. **
 
 ## What's NOT Working 
 
-1. Sleep Mode (Display can't power on ater sleep)
-2. DRM (iGPU DRM broken since 10.12.2)
+1. Sleep Mode (Display can't power on)
+2. Monitor Energy Saver (Same issue as 1)
+3. DRM (iGPU DRM broken since 10.12.2)
 
 ## What's Not Tested
 
